@@ -1,0 +1,46 @@
+version: '2.2'
+
+services:
+    eureka:
+        container_name: eurekaServer
+        hostname: eurekaServer
+        build: ./../../eureka
+        networks:
+            - jy-net
+        ports:
+            - "8761:8761"
+        environment:
+            spring.profiles.include: docker
+
+    gateway:
+        container_name: gateway
+        build: ./../../gateway
+        networks:
+            - jy-net
+        ports:
+            - "9999:9999"
+        depends_on:
+          - eureka
+        environment:
+            spring.profiles.include: docker
+
+    sms:
+        container_name: sms
+        build: ./../../sms
+        networks:
+            - jy-net
+        ports:
+            - "8080:8080"
+            - "1081:1081"
+        depends_on:
+          - eureka
+          - gateway
+        environment:
+            spring.profiles.include: docker
+            JAVA_OPTS: '-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=*:1081'
+
+
+
+networks:
+    jy-net:
+        driver: bridge

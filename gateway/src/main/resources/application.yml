@@ -10,3 +10,11 @@ spring:
 zuul:
   routes:
     SMS: /sms/**
+
+---
+spring:
+  profiles: docker
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eurekaServer:8761/eureka

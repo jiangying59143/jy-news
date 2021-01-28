@@ -7,7 +7,19 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
 spring:
+  profiles:
+    active:
   application:
     name: SMS
 swagger:
   base-package: com.jy.sms.controller
+
+---
+spring:
+  profiles: docker
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eurekaServer:8761/eureka
+
+
