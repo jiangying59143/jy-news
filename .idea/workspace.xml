@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29669e66-f4cc-49a3-8d8b-5433c2f8851c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.build.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.build docker.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.1 start.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.clean docker disk.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/dev/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/DockerFile" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/docker-entrypoint.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sms/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sms/src/main/resources/DockerFile" beforeDir="false" afterPath="$PROJECT_DIR$/sms/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sms/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sms/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dev/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dev/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,12 +180,24 @@
       <workItem from="1609467640795" duration="3772000" />
       <workItem from="1609491890136" duration="1183000" />
       <workItem from="1611040141521" duration="591000" />
-      <workItem from="1611215064353" duration="31331000" />
+      <workItem from="1611215064353" duration="31684000" />
     </task>
+    <task id="LOCAL-00001" summary="docker implementation">
+      <created>1611831046370</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611831046370</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="docker implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker implementation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="70" key="#Project_Structure" timestamp="1609233712963">
@@ -223,6 +220,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="496" y="135" key="#dev.eureka:_Compose_Deployment/0.0.1536.824@0.0.1536.824" timestamp="1611825255211" />
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1611831043581">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1611831043581" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1611555845507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -287,6 +288,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1611555857284" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1611831056876">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1611831056876" />
     <state x="581" y="175" width="623" height="536" key="find.popup" timestamp="1609371910182">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

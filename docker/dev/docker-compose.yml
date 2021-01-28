@@ -37,7 +37,7 @@ services:
           - gateway
         environment:
             spring.profiles.include: docker
-            JAVA_OPTS: '-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=*:1081'
+            JAVA_OPTS: # '-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:1081'
 
 
 
