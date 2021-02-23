@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/sms/pom.xml" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
         <option value="$PROJECT_DIR$/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/es/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

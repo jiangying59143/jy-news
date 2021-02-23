@@ -1,0 +1,10 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: es
+  data:
+    elasticsearch:
+      cluster-name: es-docker-cluster
+      #      cluster-nodes: 127.0.0.1:9300
+      cluster-nodes: es1:9200,es2:9200,es3:9200
